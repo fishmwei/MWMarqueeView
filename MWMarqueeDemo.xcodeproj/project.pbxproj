@@ -15,18 +15,6 @@
 		C17675F81C55FA1A003EF9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17675F61C55FA1A003EF9EA /* LaunchScreen.storyboard */; };
 		C17676031C55FA1A003EF9EA /* MWMarqueeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17676021C55FA1A003EF9EA /* MWMarqueeDemoTests.m */; };
 		C176760E1C55FA1A003EF9EA /* MWMarqueeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C176760D1C55FA1A003EF9EA /* MWMarqueeDemoUITests.m */; };
-		C176761E1C55FA65003EF9EA /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C176761D1C55FA65003EF9EA /* AutoScrollLabel.m */; };
-		C176761F1C55FA65003EF9EA /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C176761D1C55FA65003EF9EA /* AutoScrollLabel.m */; };
-		C17676201C55FA65003EF9EA /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C176761D1C55FA65003EF9EA /* AutoScrollLabel.m */; };
-		C17676231C55FAB0003EF9EA /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C17676221C55FAB0003EF9EA /* MWMarqueeView.m */; };
-		C17676241C55FAB0003EF9EA /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C17676221C55FAB0003EF9EA /* MWMarqueeView.m */; };
-		C17676251C55FAB0003EF9EA /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C17676221C55FAB0003EF9EA /* MWMarqueeView.m */; };
-		C17676271C55FAC8003EF9EA /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17676261C55FAC8003EF9EA /* btn_normal@2x.png */; };
-		C17676281C55FAC8003EF9EA /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17676261C55FAC8003EF9EA /* btn_normal@2x.png */; };
-		C17676291C55FAC8003EF9EA /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17676261C55FAC8003EF9EA /* btn_normal@2x.png */; };
-		C176762C1C55FB80003EF9EA /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C176762B1C55FB80003EF9EA /* UIView+Metrics.m */; };
-		C176762D1C55FB80003EF9EA /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C176762B1C55FB80003EF9EA /* UIView+Metrics.m */; };
-		C176762E1C55FB80003EF9EA /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C176762B1C55FB80003EF9EA /* UIView+Metrics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +51,6 @@
 		C17676091C55FA1A003EF9EA /* MWMarqueeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWMarqueeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C176760D1C55FA1A003EF9EA /* MWMarqueeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWMarqueeDemoUITests.m; sourceTree = "<group>"; };
 		C176760F1C55FA1A003EF9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C176761C1C55FA65003EF9EA /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
-		C176761D1C55FA65003EF9EA /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
-		C17676211C55FAB0003EF9EA /* MWMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMarqueeView.h; sourceTree = "<group>"; };
-		C17676221C55FAB0003EF9EA /* MWMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMarqueeView.m; sourceTree = "<group>"; };
-		C17676261C55FAC8003EF9EA /* btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_normal@2x.png"; sourceTree = "<group>"; };
-		C176762A1C55FB80003EF9EA /* UIView+Metrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Metrics.h"; sourceTree = "<group>"; };
-		C176762B1C55FB80003EF9EA /* UIView+Metrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Metrics.m"; sourceTree = "<group>"; };
 		C176762F1C55FD05003EF9EA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C14832EA1C5876A20042FDC7 /* MWMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MWMarqueeView;
+			sourceTree = "<group>";
+		};
 		C17675DC1C55FA1A003EF9EA = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +109,7 @@
 		C17675E71C55FA1A003EF9EA /* MWMarqueeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C176761B1C55FA46003EF9EA /* MWMarqueeView */,
+				C14832EA1C5876A20042FDC7 /* MWMarqueeView */,
 				C17675EB1C55FA1A003EF9EA /* AppDelegate.h */,
 				C17675EC1C55FA1A003EF9EA /* AppDelegate.m */,
 				C17675EE1C55FA1A003EF9EA /* ViewController.h */,
@@ -160,20 +148,6 @@
 				C176760F1C55FA1A003EF9EA /* Info.plist */,
 			);
 			path = MWMarqueeDemoUITests;
-			sourceTree = "<group>";
-		};
-		C176761B1C55FA46003EF9EA /* MWMarqueeView */ = {
-			isa = PBXGroup;
-			children = (
-				C176761C1C55FA65003EF9EA /* AutoScrollLabel.h */,
-				C176761D1C55FA65003EF9EA /* AutoScrollLabel.m */,
-				C176762A1C55FB80003EF9EA /* UIView+Metrics.h */,
-				C176762B1C55FB80003EF9EA /* UIView+Metrics.m */,
-				C17676211C55FAB0003EF9EA /* MWMarqueeView.h */,
-				C17676221C55FAB0003EF9EA /* MWMarqueeView.m */,
-				C17676261C55FAC8003EF9EA /* btn_normal@2x.png */,
-			);
-			path = MWMarqueeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +255,6 @@
 			files = (
 				C17675F81C55FA1A003EF9EA /* LaunchScreen.storyboard in Resources */,
 				C17675F51C55FA1A003EF9EA /* Assets.xcassets in Resources */,
-				C17676271C55FAC8003EF9EA /* btn_normal@2x.png in Resources */,
 				C17675F31C55FA1A003EF9EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17676281C55FAC8003EF9EA /* btn_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17676291C55FAC8003EF9EA /* btn_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,9 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C176762C1C55FB80003EF9EA /* UIView+Metrics.m in Sources */,
-				C176761E1C55FA65003EF9EA /* AutoScrollLabel.m in Sources */,
-				C17676231C55FAB0003EF9EA /* MWMarqueeView.m in Sources */,
 				C17675F01C55FA1A003EF9EA /* ViewController.m in Sources */,
 				C17675ED1C55FA1A003EF9EA /* AppDelegate.m in Sources */,
 				C17675EA1C55FA1A003EF9EA /* main.m in Sources */,
@@ -322,9 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C176761F1C55FA65003EF9EA /* AutoScrollLabel.m in Sources */,
-				C17676241C55FAB0003EF9EA /* MWMarqueeView.m in Sources */,
-				C176762D1C55FB80003EF9EA /* UIView+Metrics.m in Sources */,
 				C17676031C55FA1A003EF9EA /* MWMarqueeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,9 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17676201C55FA65003EF9EA /* AutoScrollLabel.m in Sources */,
-				C17676251C55FAB0003EF9EA /* MWMarqueeView.m in Sources */,
-				C176762E1C55FB80003EF9EA /* UIView+Metrics.m in Sources */,
 				C176760E1C55FA1A003EF9EA /* MWMarqueeDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +510,7 @@
 				C17676141C55FA1A003EF9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17676151C55FA1A003EF9EA /* Build configuration list for PBXNativeTarget "MWMarqueeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +519,7 @@
 				C17676171C55FA1A003EF9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17676181C55FA1A003EF9EA /* Build configuration list for PBXNativeTarget "MWMarqueeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +528,7 @@
 				C176761A1C55FA1A003EF9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
