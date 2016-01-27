@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14832F41C5877C00042FDC7 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832EE1C5877C00042FDC7 /* AutoScrollLabel.m */; };
+		C14832F51C5877C00042FDC7 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832EE1C5877C00042FDC7 /* AutoScrollLabel.m */; };
+		C14832F61C5877C00042FDC7 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832EE1C5877C00042FDC7 /* AutoScrollLabel.m */; };
+		C14832F71C5877C00042FDC7 /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14832EF1C5877C00042FDC7 /* btn_normal@2x.png */; };
+		C14832F81C5877C00042FDC7 /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14832EF1C5877C00042FDC7 /* btn_normal@2x.png */; };
+		C14832F91C5877C00042FDC7 /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14832EF1C5877C00042FDC7 /* btn_normal@2x.png */; };
+		C14832FA1C5877C00042FDC7 /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F11C5877C00042FDC7 /* MWMarqueeView.m */; };
+		C14832FB1C5877C00042FDC7 /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F11C5877C00042FDC7 /* MWMarqueeView.m */; };
+		C14832FC1C5877C00042FDC7 /* MWMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F11C5877C00042FDC7 /* MWMarqueeView.m */; };
+		C14832FD1C5877C00042FDC7 /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F31C5877C00042FDC7 /* UIView+Metrics.m */; };
+		C14832FE1C5877C00042FDC7 /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F31C5877C00042FDC7 /* UIView+Metrics.m */; };
+		C14832FF1C5877C00042FDC7 /* UIView+Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = C14832F31C5877C00042FDC7 /* UIView+Metrics.m */; };
 		C17675EA1C55FA1A003EF9EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17675E91C55FA1A003EF9EA /* main.m */; };
 		C17675ED1C55FA1A003EF9EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17675EC1C55FA1A003EF9EA /* AppDelegate.m */; };
 		C17675F01C55FA1A003EF9EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17675EF1C55FA1A003EF9EA /* ViewController.m */; };
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14832ED1C5877C00042FDC7 /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
+		C14832EE1C5877C00042FDC7 /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
+		C14832EF1C5877C00042FDC7 /* btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_normal@2x.png"; sourceTree = "<group>"; };
+		C14832F01C5877C00042FDC7 /* MWMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMarqueeView.h; sourceTree = "<group>"; };
+		C14832F11C5877C00042FDC7 /* MWMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMarqueeView.m; sourceTree = "<group>"; };
+		C14832F21C5877C00042FDC7 /* UIView+Metrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Metrics.h"; sourceTree = "<group>"; };
+		C14832F31C5877C00042FDC7 /* UIView+Metrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Metrics.m"; sourceTree = "<group>"; };
 		C17675E51C55FA1A003EF9EA /* MWMarqueeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWMarqueeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17675E91C55FA1A003EF9EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C17675EB1C55FA1A003EF9EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,9 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C14832EA1C5876A20042FDC7 /* MWMarqueeView */ = {
+		C14832EC1C5877B50042FDC7 /* MWMarqueeView */ = {
 			isa = PBXGroup;
 			children = (
+				C14832ED1C5877C00042FDC7 /* AutoScrollLabel.h */,
+				C14832EE1C5877C00042FDC7 /* AutoScrollLabel.m */,
+				C14832EF1C5877C00042FDC7 /* btn_normal@2x.png */,
+				C14832F01C5877C00042FDC7 /* MWMarqueeView.h */,
+				C14832F11C5877C00042FDC7 /* MWMarqueeView.m */,
+				C14832F21C5877C00042FDC7 /* UIView+Metrics.h */,
+				C14832F31C5877C00042FDC7 /* UIView+Metrics.m */,
 			);
 			path = MWMarqueeView;
 			sourceTree = "<group>";
@@ -109,7 +135,7 @@
 		C17675E71C55FA1A003EF9EA /* MWMarqueeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C14832EA1C5876A20042FDC7 /* MWMarqueeView */,
+				C14832EC1C5877B50042FDC7 /* MWMarqueeView */,
 				C17675EB1C55FA1A003EF9EA /* AppDelegate.h */,
 				C17675EC1C55FA1A003EF9EA /* AppDelegate.m */,
 				C17675EE1C55FA1A003EF9EA /* ViewController.h */,
@@ -255,6 +281,7 @@
 			files = (
 				C17675F81C55FA1A003EF9EA /* LaunchScreen.storyboard in Resources */,
 				C17675F51C55FA1A003EF9EA /* Assets.xcassets in Resources */,
+				C14832F71C5877C00042FDC7 /* btn_normal@2x.png in Resources */,
 				C17675F31C55FA1A003EF9EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14832F81C5877C00042FDC7 /* btn_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14832F91C5877C00042FDC7 /* btn_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14832FD1C5877C00042FDC7 /* UIView+Metrics.m in Sources */,
+				C14832F41C5877C00042FDC7 /* AutoScrollLabel.m in Sources */,
+				C14832FA1C5877C00042FDC7 /* MWMarqueeView.m in Sources */,
 				C17675F01C55FA1A003EF9EA /* ViewController.m in Sources */,
 				C17675ED1C55FA1A003EF9EA /* AppDelegate.m in Sources */,
 				C17675EA1C55FA1A003EF9EA /* main.m in Sources */,
@@ -290,6 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14832F51C5877C00042FDC7 /* AutoScrollLabel.m in Sources */,
+				C14832FB1C5877C00042FDC7 /* MWMarqueeView.m in Sources */,
+				C14832FE1C5877C00042FDC7 /* UIView+Metrics.m in Sources */,
 				C17676031C55FA1A003EF9EA /* MWMarqueeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14832F61C5877C00042FDC7 /* AutoScrollLabel.m in Sources */,
+				C14832FC1C5877C00042FDC7 /* MWMarqueeView.m in Sources */,
+				C14832FF1C5877C00042FDC7 /* UIView+Metrics.m in Sources */,
 				C176760E1C55FA1A003EF9EA /* MWMarqueeDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
