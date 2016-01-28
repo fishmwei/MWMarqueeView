@@ -15,13 +15,13 @@ Installation
 ==============
 
 ### CocoaPods
-1. Add `pod "MWSelectListView"` to your Podfile.
+1. Add `pod "MWMarqueeView"` to your Podfile.
 2. Run `pod install` or `pod update`.
 3. Import “MWMarqueeView.h”.
 
 
 ### Manually
-1. Copy MWSelectListView to your project
+1. Copy MWMarqueeView to your project
 2. import "MWMarqueeView.h"
 
 
