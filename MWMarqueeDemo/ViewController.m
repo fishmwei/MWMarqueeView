@@ -51,20 +51,6 @@
 }
 
 
-
-
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    
-}
-
--(void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
 -(void)setupView
 {
     self.systemNoticeView = [[MWMarqueeView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, 40)];
@@ -72,16 +58,15 @@
     [self.view addSubview:self.systemNoticeView];
     
     self.systemNoticeView.autoScrollLabel.alwaysScroll = NO;
+    self.systemNoticeView.autoScrollLabel.scrollSpeed = 30;
     self.systemNoticeView.marqueeViewDelegate = self;
-    //    self.systemNoticeView.marqueeStyle = NDMarqueeViewStyleLabelOnly;
     
     [self.systemNoticeView setFont:[UIFont systemFontOfSize:14]];
-    self.systemNoticeView.autoScrollLabel.textColor = ColorWithHexValue(0x333333, 1.0f);
-    
+    self.systemNoticeView.autoScrollLabel.textColor = ColorWithHexValue(0xff3333, 1.0f);
     
     //    self.systemNoticeView.hidden = YES;
     
-    self.systemNoticeView.autoScrollLabel.text = @"self.systemNoticeView.autoScrollLabel.textColor = ColorWithHexValue(0x333333, 1.0f)";
+    self.systemNoticeView.autoScrollLabel.text = @"Hello, every body! This is a marquee Demo, Just to use it. It's my pleasure! The animation will stop when you drag the view, resume when you drag end";
 }
 
 -(void)MWMarqueeViewClicked

@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/fishmwei/MWMarqueeView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "fishmwei" => "fishmwei@qq.com" }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios
   s.source       = { :git => "https://github.com/fishmwei/MWMarqueeView.git", :tag => "0.0.1" }
   s.source_files  = "MWMarqueeView", "MWMarqueeView/*.{h,m,png}"
   s.requires_arc = true
